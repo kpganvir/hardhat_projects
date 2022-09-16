@@ -5,7 +5,7 @@ contract Token{
 
 string public name="hardhat_token";
 string public symbol="HHT";
-uint totalSupply=1000;
+uint public totalSupply=1000;
 address public owner;
 
 mapping(address=> uint) balances;
